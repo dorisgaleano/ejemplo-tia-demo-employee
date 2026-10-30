@@ -1,0 +1,47 @@
+{
+  "archivo": "data/input/ia/datos_pruebas_ia.xlsx",
+  "filas": 30,
+  "aceptadas": 30,
+  "rechazadas": 0,
+  "tasaAceptacion": 100,
+  "errores": 0,
+  "porHoja": {
+    "HLC-TC-003": {
+      "total": 3,
+      "aceptadas": 3
+    },
+    "HLC-TC-004": {
+      "total": 5,
+      "aceptadas": 5
+    },
+    "HLC-TC-006": {
+      "total": 4,
+      "aceptadas": 4
+    },
+    "HLC-TC-007": {
+      "total": 2,
+      "aceptadas": 2
+    },
+    "HLC-TC-008": {
+      "total": 5,
+      "aceptadas": 5
+    },
+    "HLC-TC-009": {
+      "total": 2,
+      "aceptadas": 2
+    },
+    "HLC-TC-010": {
+      "total": 2,
+      "aceptadas": 2
+    },
+    "HLC-TC-011": {
+      "total": 4,
+      "aceptadas": 4
+    },
+    "HLC-TC-014": {
+      "total": 3,
+      "aceptadas": 3
+    }
+  },
+  "motivos": {}
+}

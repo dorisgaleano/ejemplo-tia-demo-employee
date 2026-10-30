@@ -1,0 +1,19 @@
+{
+  "archivos": [
+    "src/api/LeaveApi.js"
+  ],
+  "motivos": [
+    "src/api/LeaveApi.js → transversal (Capa de API: la usan la preparación de datos y las verificaciones de todos los casos.)"
+  ],
+  "ignorados": [],
+  "todo": true,
+  "casosAfectados": [],
+  "casosSeleccionados": 9,
+  "totalCasos": 9,
+  "escenariosSeleccionados": 14,
+  "totalEscenarios": 14,
+  "ahorroPct": 0,
+  "minutosEstimados": 13,
+  "minutosSuiteCompleta": 13,
+  "filtroTag": ""
+}

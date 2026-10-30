@@ -1,0 +1,28 @@
+{
+  "archivos": [
+    "src/pages/ApplyLeavePage.js"
+  ],
+  "motivos": [
+    "src/pages/ApplyLeavePage.js → 8 caso(s) APPLY (Page Object exclusivo del formulario Apply Leave.)"
+  ],
+  "ignorados": [],
+  "todo": false,
+  "casosAfectados": [
+    "HLC-TC-004",
+    "HLC-TC-006",
+    "HLC-TC-007",
+    "HLC-TC-008",
+    "HLC-TC-009",
+    "HLC-TC-010",
+    "HLC-TC-011",
+    "HLC-TC-014"
+  ],
+  "casosSeleccionados": 8,
+  "totalCasos": 9,
+  "escenariosSeleccionados": 8,
+  "totalEscenarios": 14,
+  "ahorroPct": 43,
+  "minutosEstimados": 4,
+  "minutosSuiteCompleta": 4,
+  "filtroTag": "(@HLC-TC-004 and @modo:APPLY) or (@HLC-TC-006 and @modo:APPLY) or (@HLC-TC-007 and @modo:APPLY) or (@HLC-TC-008 and @modo:APPLY) or (@HLC-TC-009 and @modo:APPLY) or (@HLC-TC-010 and @modo:APPLY) or (@HLC-TC-011 and @modo:APPLY) or (@HLC-TC-014 and @modo:APPLY)"
+}

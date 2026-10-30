@@ -1,0 +1,32 @@
+{
+  "name": "handleleavecreate-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automatización BDD (Cucumber.js + Playwright + Screenplay/POM) de los casos handleLeaveCreate del módulo Leave de OrangeHRM",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "prepare-data": "node scripts/prepare-data.js",
+    "template": "node scripts/create-template.js",
+    "dryrun": "cucumber-js --profile dryrun",
+    "test": "cucumber-js",
+    "test:headed": "cucumber-js --profile headed",
+    "test:percy": "percy exec -- cucumber-js",
+    "test:visual": "node src/visual/run.js",
+    "test:visual:percy": "percy exec -- node src/visual/run.js",
+    "tia": "node scripts/tia.js",
+    "report": "node scripts/build-report.js",
+    "validar-datos-ia": "node scripts/validar-dataset-ia.js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "13.2.1",
+    "@percy/cli": "1.32.12",
+    "@percy/playwright": "1.1.2",
+    "@playwright/test": "1.63.0",
+    "dotenv": "18.0.8",
+    "exceljs": "4.4.0",
+    "playwright": "1.63.0"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "base": "reports/visual/2026-10-23_20-58-31",
+  "nueva": "reports/visual/2026-10-23_20-58-55",
+  "umbral": 12,
+  "pantallas": [
+    {
+      "pantalla": "01-login",
+      "estado": "IGUAL",
+      "cambio_pct": 0.0,
+      "pixeles": 0
+    },
+    {
+      "pantalla": "02-dashboard",
+      "estado": "DIFERENTE",
+      "cambio_pct": 0.042,
+      "pixeles": 438
+    },
+    {
+      "pantalla": "03-apply-leave",
+      "estado": "IGUAL",
+      "cambio_pct": 0.0,
+      "pixeles": 0
+    },
+    {
+      "pantalla": "04-assign-leave",
+      "estado": "IGUAL",
+      "cambio_pct": 0.0,
+      "pixeles": 0
+    },
+    {
+      "pantalla": "05-my-leave",
+      "estado": "IGUAL",
+      "cambio_pct": 0.0,
+      "pixeles": 0
+    },
+    {
+      "pantalla": "06-leave-list",
+      "estado": "IGUAL",
+      "cambio_pct": 0.0,
+      "pixeles": 0
+    },
+    {
+      "pantalla": "07-leave-types",
+      "estado": "IGUAL",
+      "cambio_pct": 0.0,
+      "pixeles": 0
+    }
+  ]
+}

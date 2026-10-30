@@ -1,0 +1,77 @@
+### 1) Cambio en el formulario Apply Leave
+
+──────────────────────────────────────────────────────────────────
+[test-impact-analysis]
+──────────────────────────────────────────────────────────────────
+Archivos cambiados: 1
+  · src/pages/ApplyLeavePage.js → 8 caso(s) APPLY (Page Object exclusivo del formulario Apply Leave.)
+
+Casos afectados: 8 de 9
+  · HLC-TC-004  APPLY  1 escenario(s)
+  · HLC-TC-006  APPLY  1 escenario(s)
+  · HLC-TC-007  APPLY  1 escenario(s)
+  · HLC-TC-008  APPLY  1 escenario(s)
+  · HLC-TC-009  APPLY  1 escenario(s)
+  · HLC-TC-010  APPLY  1 escenario(s)
+  · HLC-TC-011  APPLY  1 escenario(s)
+  · HLC-TC-014  APPLY  1 escenario(s)
+
+Escenarios: 8 de 14  (ahorro 43 %)
+Tiempo estimado: 4 min  vs  13 min de la suite completa
+
+FILTRO_TAG=(@HLC-TC-004 and @modo:APPLY) or (@HLC-TC-006 and @modo:APPLY) or (@HLC-TC-007 and @modo:APPLY) or (@HLC-TC-008 and @modo:APPLY) or (@HLC-TC-009 and @modo:APPLY) or (@HLC-TC-010 and @modo:APPLY) or (@HLC-TC-011 and @modo:APPLY) or (@HLC-TC-014 and @modo:APPLY)
+
+Reporte: reports/tia/2026-10-23T21-00-58-325Z.json
+
+
+### 2) Cambio en utilidades de fechas
+
+──────────────────────────────────────────────────────────────────
+[test-impact-analysis]
+──────────────────────────────────────────────────────────────────
+Archivos cambiados: 1
+  · src/utils/dates.js → 3 caso(s) APPLY/ASSIGN (Traducción de fechas simbólicas (LUN, MAR, INICIO_PERIODO).)
+
+Casos afectados: 3 de 9
+  · HLC-TC-006  APPLY/ASSIGN  2 escenario(s)
+  · HLC-TC-007  APPLY/ASSIGN  2 escenario(s)
+  · HLC-TC-014  APPLY/ASSIGN  2 escenario(s)
+
+Escenarios: 6 de 14  (ahorro 57 %)
+Tiempo estimado: 6 min  vs  13 min de la suite completa
+
+FILTRO_TAG=@HLC-TC-006 or @HLC-TC-007 or @HLC-TC-014
+
+Reporte: reports/tia/2026-10-23T21-00-58-684Z.json
+
+
+### 3) Cambio transversal en la API
+
+──────────────────────────────────────────────────────────────────
+[test-impact-analysis]
+──────────────────────────────────────────────────────────────────
+Archivos cambiados: 1
+  · src/api/LeaveApi.js → transversal (Capa de API: la usan la preparación de datos y las verificaciones de todos los casos.)
+
+Casos afectados: 9 de 9 (transversal: se ejecuta todo)
+
+Escenarios: 14 de 14  (ahorro 0 %)
+Tiempo estimado: 13 min  vs  13 min de la suite completa
+
+Se ejecuta la suite completa.
+
+Reporte: reports/tia/2026-10-23T21-00-59-043Z.json
+
+
+### 4) Cambio solo en documentación
+
+──────────────────────────────────────────────────────────────────
+[test-impact-analysis]
+──────────────────────────────────────────────────────────────────
+Archivos cambiados: 1
+  (sin impacto en las pruebas)
+  · docs/entregable-5/03_tia.md
+
+Ninguno de los archivos cambiados participa en las pruebas: no se ejecuta nada.
+Si el cambio toca documentación o el informe, es el resultado esperado.
+

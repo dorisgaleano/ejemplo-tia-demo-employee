@@ -1,0 +1,43 @@
+{
+  "archivo": "data/input/ia/datos_pruebas_ia_sin_reglas.xlsx",
+  "filas": 10,
+  "aceptadas": 2,
+  "rechazadas": 8,
+  "tasaAceptacion": 20,
+  "errores": 22,
+  "porHoja": {
+    "HLC-TC-004": {
+      "total": 5,
+      "aceptadas": 0
+    },
+    "HLC-TC-006": {
+      "total": 2,
+      "aceptadas": 0
+    },
+    "HLC-TC-011": {
+      "total": 2,
+      "aceptadas": 1
+    },
+    "Licencias": {
+      "total": 1,
+      "aceptadas": 1
+    }
+  },
+  "motivos": {
+    "IdFila: debe empezar por \"HLC-TC-004-\" (ej. HLC-TC-004-01).": 1,
+    "Modo: valor \"SOLICITAR\" inválido": 1,
+    "Modo: el feature solo tiene escenarios para": 1,
+    "FechaDesde: valor \"próximo lunes\" inválido": 1,
+    "FechaHasta: valor \"próximo martes\" inválido": 1,
+    "DiasLicencia: valor \"1,5 días\" inválido": 1,
+    "DiasUsados1: valor \"1,5\" inválido": 1,
+    "Cupo1_Desde: valor \"01/11/2026\" inválido": 1,
+    "Cupo1_Hasta: valor \"31/12/2026\" inválido": 1,
+    "Descripcion: no puede estar vacía.": 1,
+    "IdFila: debe empezar por \"HLC-TC-006-\" (ej. HLC-TC-006-01).": 1,
+    "FechaDesde: valor \"lunes\" inválido": 1,
+    "FechaHasta: valor \"martes\" inválido": 1,
+    "DiasLicencia: valor \"dos\" inválido": 1,
+    "DiasUsados3: valor \"-1\" inválido": 1
+  }
+}

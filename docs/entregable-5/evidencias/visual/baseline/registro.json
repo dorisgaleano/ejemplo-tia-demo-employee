@@ -1,0 +1,59 @@
+{
+  "runId": "2026-10-23_20-58-31",
+  "baseUrl": "https://opensource-demo.orangehrmlive.com",
+  "percy": "inactivo",
+  "total": 7,
+  "paso": 7,
+  "fallo": 0,
+  "pantallas": [
+    {
+      "nombre": "01-login",
+      "estado": "PASÓ",
+      "ms": 2616,
+      "archivo": "reports/visual/2026-10-23_20-58-31/01-login.png",
+      "percy": "omitido"
+    },
+    {
+      "nombre": "02-dashboard",
+      "estado": "PASÓ",
+      "ms": 4215,
+      "archivo": "reports/visual/2026-10-23_20-58-31/02-dashboard.png",
+      "percy": "omitido"
+    },
+    {
+      "nombre": "03-apply-leave",
+      "estado": "PASÓ",
+      "ms": 2059,
+      "archivo": "reports/visual/2026-10-23_20-58-31/03-apply-leave.png",
+      "percy": "omitido"
+    },
+    {
+      "nombre": "04-assign-leave",
+      "estado": "PASÓ",
+      "ms": 2034,
+      "archivo": "reports/visual/2026-10-23_20-58-31/04-assign-leave.png",
+      "percy": "omitido"
+    },
+    {
+      "nombre": "05-my-leave",
+      "estado": "PASÓ",
+      "ms": 5021,
+      "archivo": "reports/visual/2026-10-23_20-58-31/05-my-leave.png",
+      "percy": "omitido"
+    },
+    {
+      "nombre": "06-leave-list",
+      "estado": "PASÓ",
+      "ms": 3531,
+      "archivo": "reports/visual/2026-10-23_20-58-31/06-leave-list.png",
+      "percy": "omitido"
+    },
+    {
+      "nombre": "07-leave-types",
+      "estado": "PASÓ",
+      "ms": 2166,
+      "archivo": "reports/visual/2026-10-23_20-58-31/07-leave-types.png",
+      "percy": "omitido"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "archivos": [
+    "src/utils/dates.js"
+  ],
+  "motivos": [
+    "src/utils/dates.js → 3 caso(s) APPLY/ASSIGN (Traducción de fechas simbólicas (LUN, MAR, INICIO_PERIODO).)"
+  ],
+  "ignorados": [],
+  "todo": false,
+  "casosAfectados": [
+    "HLC-TC-006",
+    "HLC-TC-007",
+    "HLC-TC-014"
+  ],
+  "casosSeleccionados": 3,
+  "totalCasos": 9,
+  "escenariosSeleccionados": 6,
+  "totalEscenarios": 14,
+  "ahorroPct": 57,
+  "minutosEstimados": 6,
+  "minutosSuiteCompleta": 6,
+  "filtroTag": "@HLC-TC-006 or @HLC-TC-007 or @HLC-TC-014"
+}

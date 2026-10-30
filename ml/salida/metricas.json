@@ -1,0 +1,108 @@
+{
+  "filasTotales": 154,
+  "filas": 126,
+  "filasBloqueadas": 28,
+  "positivos": 22,
+  "tasaDefecto": 17.5,
+  "modelos": {
+    "Regresión logística": {
+      "exactitud": 0.789,
+      "precision": 0.455,
+      "recall": 0.714,
+      "f1": 0.556,
+      "roc_auc": 0.823,
+      "cv": {
+        "accuracy_media": 0.699,
+        "accuracy_desv": 0.063,
+        "recall_media": 0.69,
+        "f1_media": 0.442,
+        "roc_auc_media": 0.736
+      }
+    },
+    "Random forest": {
+      "exactitud": 0.711,
+      "precision": 0.357,
+      "recall": 0.714,
+      "f1": 0.476,
+      "roc_auc": 0.795,
+      "cv": {
+        "accuracy_media": 0.675,
+        "accuracy_desv": 0.092,
+        "recall_media": 0.69,
+        "f1_media": 0.428,
+        "roc_auc_media": 0.743
+      }
+    }
+  },
+  "importancia": {
+    "modo_assign": 0.254,
+    "requiere_autocompletado": 0.237,
+    "num_pasos": 0.162,
+    "usa_api": 0.127,
+    "saldo_justo": 0.095,
+    "dias_licencia": 0.079,
+    "num_cupos": 0.047
+  },
+  "descriptivos": [
+    {
+      "variable": "modo",
+      "valor": "APPLY",
+      "corridas": 72,
+      "tasa_defecto": 6.9
+    },
+    {
+      "variable": "modo",
+      "valor": "ASSIGN",
+      "corridas": 54,
+      "tasa_defecto": 31.5
+    },
+    {
+      "variable": "saldo_justo",
+      "valor": 0,
+      "corridas": 54,
+      "tasa_defecto": 11.1
+    },
+    {
+      "variable": "saldo_justo",
+      "valor": 1,
+      "corridas": 72,
+      "tasa_defecto": 22.2
+    },
+    {
+      "variable": "requiere_autocompletado",
+      "valor": 0,
+      "corridas": 72,
+      "tasa_defecto": 6.9
+    },
+    {
+      "variable": "requiere_autocompletado",
+      "valor": 1,
+      "corridas": 54,
+      "tasa_defecto": 31.5
+    },
+    {
+      "variable": "usa_api",
+      "valor": 0,
+      "corridas": 27,
+      "tasa_defecto": 3.7
+    },
+    {
+      "variable": "usa_api",
+      "valor": 1,
+      "corridas": 99,
+      "tasa_defecto": 21.2
+    },
+    {
+      "variable": "dias_licencia",
+      "valor": "(-0.001, 1.0]",
+      "corridas": 45,
+      "tasa_defecto": 20.0
+    },
+    {
+      "variable": "dias_licencia",
+      "valor": "(1.0, 2.0]",
+      "corridas": 81,
+      "tasa_defecto": 16.0
+    }
+  ]
+}

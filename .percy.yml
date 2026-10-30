@@ -1,0 +1,12 @@
+# Configuración de Percy para la regresión visual del módulo Leave (Entregable 5).
+# El ancho fijo es obligatorio: si Percy captura a varios anchos, cada uno es una pantalla
+# distinta y el baseline se multiplica sin agregar cobertura real para esta suite.
+version: 2
+snapshot:
+  widths:
+    - 1366
+  min-height: 1024
+  percy-css: |
+    * { animation: none !important; transition: none !important; caret-color: transparent !important; }
+    input[type="password"] { visibility: hidden !important; }
+
